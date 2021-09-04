@@ -24,9 +24,10 @@ html{
   }
   
   .RechargeBill-data-div{
-    height: 25rem;
+    /* height: 30rem; */
     padding: 3rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
   .RechargeBill-data-div:hover{
     border-radius: 15px;
@@ -64,9 +65,9 @@ html{
     height: 7rem;
     border-radius: 50%;
     background-color: #fff;
-    display: grid;
+    /* display: grid; */
     place-items: center;
     margin-bottom: 1rem;
-    padding-top: 0rem;
+    padding-top: 1.5rem;
   }
   
