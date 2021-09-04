@@ -7,7 +7,7 @@ const AboutUsApi=[
     {
         id:2,
         title:"Accept Your Money Wherever You Are!!",
-        info: "JustPay is a fully integrated suite of payments products. Our fast, easy to use Virtual POS, Future POS lets you access your account wherever you need it. JustPay mission is to provide businesses of all sizes with the opportunity to receive online payments anywhere."
+        info: "OnlinePay is a fully integrated suite of payments products. Our fast, easy to use Virtual POS, Future POS lets you access your account wherever you need it. JustPay mission is to provide businesses of all sizes with the opportunity to receive online payments anywhere."
     },
     {
         id:3,

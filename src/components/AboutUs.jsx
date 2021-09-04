@@ -10,11 +10,11 @@ const AboutUs = () => {
                 <div className="container padding-top">
                     <div className="row">
                         <div className="col-12 col-lg-5 text-center our-service-leftSide-img">
-                            <img src="../images/aboutUs-section1.jpg" alt="About section" />
+                            <img src="../images/aboutUs-section4.jpg" alt="About section" />
                         </div>
                         <div className="col-12 col-lg-7 our-services-list">
                             <h3 className="mini-title">
-                                --Avialable @ Google and IOS App store only
+                                {/* --Avialable @ Google and IOS App store only */}
                             </h3>
                             <h1 className="main-heading">Why Us ?</h1>
                             {

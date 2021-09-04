@@ -10,7 +10,7 @@ const RechargePay = () => {
             <section className="RechargeBill-main-container">
                 <div className="container-fluid RechargeBill-sub-container">
                     <h2 className="recharge_book_heading">
-                        Recharge & Pay Bills on Paytm.
+                        Recharge & Pay Bills on OnlinePay.
                     </h2>
                     <div className="row">
                         <div className="col-lg-10 col-10 mx-auto">
@@ -38,7 +38,7 @@ const RechargePay = () => {
                     <div className="row full-width">
                         <div className="col-lg-10 col-10 mx-auto">
                         <h2 className="recharge_book_heading">
-                                    Book & Buy on JustPay
+                                    Book & Buy on OnlinePay
                                 </h2>
                             <div className="row">
                                

@@ -7,7 +7,7 @@ const AboutUs2Api=[
     {
         id:2,
         title:"Pay directly from your bank account",
-        info: "JustPay Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today."
+        info: "OnlinePay Payments Bank offers secure, transparent and risk-free banking at your fingertips. With instant account opening, virtual debit card and zero balance requirements, experience the future of banking today."
     },
     {
         id:3,

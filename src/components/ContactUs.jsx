@@ -1,6 +1,7 @@
- // eslint-disable-next-line
+// eslint-disable-next-line
 import React, { useState } from 'react'
-
+import withReactContent from "sweetalert2-react-content"
+import Swal from "sweetalert2"
 const ContactUs = () => {
     const [userData, setuserData] = useState({
         firstName: "",
@@ -29,7 +30,7 @@ const ContactUs = () => {
             address,
             message
         } = userData // destructring 
-        if (firstName && lastName && mobileNumber && emailID && address && message){
+        if (firstName && lastName && mobileNumber && emailID && address && message) {
             const res = fetch("https://reactmajorproject-default-rtdb.firebaseio.com/userDataRecords.json",
                 {
                     method: "POST",
@@ -46,21 +47,32 @@ const ContactUs = () => {
                     })
                 }
             );
-        if (res) {
-            setuserData({
-                firstName: "",
-                lastName: "",
-                mobileNumber: "",
-                emailID: "",
-                address: "",
-                message: ""
-            })
+            if (res && ( firstName && lastName && mobileNumber && emailID && address && message)) {
+                Swal.fire(
+                    'Good job!',
+                    'You clicked the button!',
+                    'success'
+                  )
+                setuserData({
+                    firstName: "",
+                    lastName: "",
+                    mobileNumber: "",
+                    emailID: "",
+                    address: "",
+                    message: ""
+                })
+                
+            } else {
+                Swal.fire('Please Check')
+            }
         } else {
-            alert("please fill the data");
+            Swal.fire({
+                icon: 'error',
+                title: "Can't be Empty...",
+                text: 'Please Fill!',
+                // footer: '<a href="">Why do I have this issue?</a>'
+              })
         }
-    }else{
-        alert("Please fill all the data");
-    }
 
     }
     return (
@@ -74,9 +86,9 @@ const ContactUs = () => {
                                     <h1 className="main-heading fw-bold">
                                         Connect With our <br /> Sales Team
                                     </h1>
-                                    <p className="main-hero-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, doloribus.</p>
+                                    <p className="main-hero-para">Everything you need to manage your business on your phone</p>
                                     <figure>
-                                        <img src="../images/bg-header1.jpg" alt="" className="img-fluid" />
+                                        <img src="../images/contactUs5.svg" alt="" className="img-fluid" />
                                     </figure>
                                 </div>
                                 <div className="col-12 col-lg-7 contact-rightside">
@@ -113,7 +125,7 @@ const ContactUs = () => {
                                         <div class="form-check">
                                             <input class="form-check-input" type="checkbox" />
                                             <label class="form-check-label" for="flexCheckChecked" className="main-hero-para">
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quod?
+                                                Grow your business by adding with us
                                             </label>
                                         </div>
                                         <button type="submit" className="btn-style-border btn-style w-100" onClick={submitData}>Submit</button>

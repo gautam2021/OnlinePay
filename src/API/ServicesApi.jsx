@@ -9,7 +9,7 @@ const ServicesApi=[
         id:2,
         logo:"fas fa-user-check",
         title:"Easy integration",
-        info: "Use Paytm’s robust APIs and custom SDKs to start accepting digital payments in less than 30 minutes using just a few lines of code"
+        info: "Use OnlinePay's robust APIs and custom SDKs to start accepting digital payments in less than 30 minutes using just a few lines of code"
     },
     {
         id:3,

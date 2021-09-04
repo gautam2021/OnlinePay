@@ -94,7 +94,6 @@ h6 {
 header {
   width: 100%;
   min-height: 100vh;
-
   
   z-index: 100;
   position: relative;
@@ -250,7 +249,7 @@ header {
   display: grid;
   place-items: center;
   text-align: center;
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 #fontawesome-work {
   margin-top: -3rem;
@@ -297,7 +296,7 @@ header {
 .our-Services .our-service-leftSide-img img {
   width: 65%;
   height: 100%;
-  box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.25); */
   border-radius: 17px;
 }
 
@@ -368,7 +367,7 @@ width: 85%;
   margin-left: -20rem;
   width: 65%;
     height: 100%;
-    box-shadow: 0 0.8rem 0.5rem rgb(0 0 0 / 25%);
+    /* box-shadow: 0 0.8rem 0.5rem rgb(0 0 0 / 25%); */
     border-radius: 17px;
 }
 
@@ -379,7 +378,7 @@ width: 85%;
 .service-main-container {
   /* margin-top: 2rem; */
   /* background: url("./components/how_works_bg1.jpg"); */
-  background: linear-gradient(to left, rgba(5, 78, 100, 0.8), rgba(3, 45, 58, 0.8)),
+  background: linear-gradient(to left, rgba(5, 78, 100, 0.2), rgba(3, 45, 58, 0.8)),
     url("./components/bg-header3.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -460,7 +459,7 @@ width: 85%;
   min-width: 74%;
   max-height: 23rem;
   height: auto;
-  border-radius: 18px;
+  border-radius: 20px;
   box-shadow: 0.1rem 0.2rem 0.1rem var(--bgcolor);
 }
 
@@ -510,10 +509,17 @@ footer h2 {
 footer li {
   list-style-type: none;
   font-size: 1.2rem;
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
   /* padding: 0.62rem; */
   margin: 1rem 0;
+}
+footer li a{
+  color: #fff !important;
+  text-transform: uppercase;
+}
+footer li a:hover{
+  color: #00baf2 !important;
 }
 footer li:hover {
   color: var(--primary-color);
@@ -523,8 +529,8 @@ footer .main-hero-para {
 }
 footer .fontawesome-style {
   font-size: 2.3rem;
-  /* color: var(--primary-color); */
-  color: white;
+  color: #00baf2;
+  /* color: white; */
   background-color: transparent;
   width: 0;
   height: 0;
@@ -556,6 +562,7 @@ footer .fontawesome-style {
 
 
 /* footer  end */
+
 
 /* responsive media query */
 @media (min-width: 1500px) {

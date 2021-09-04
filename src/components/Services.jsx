@@ -10,7 +10,7 @@ const Services = () => {
         <>
            <section className="service-main-container">
                 <div className="container service-container">
-                    <h1 className="main-heading text-center fw-bold">Six powerful reasons to choose Paytm Payment Gateway</h1>   
+                    <h1 className="main-heading text-center fw-bold">Six powerful reasons to choose OnlinePay Payment Gateway</h1>   
                     <div className="row">
                     
                        {

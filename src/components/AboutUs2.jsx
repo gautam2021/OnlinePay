@@ -11,7 +11,7 @@ const AboutUs2 = () => {
 
                         <div className="col-12 col-lg-7 our-services-list order-lg-first order-last" id="world-class-support">
                             <h3 className="mini-title">
-                                --Support in any language
+                                {/* --Support in any language */}
                             </h3>
                             <h1 className="main-heading">Do more of what you always wanted</h1>
                             {
@@ -35,7 +35,7 @@ const AboutUs2 = () => {
                             <button className="btn-style btn-style-border">Learn More</button>
                         </div>
                         <div className="col-12 col-lg-5 text-center order-md-first order-sm-first" id="world-class-img">
-                            <img src="../images/world-section-img1.jpg" alt="About section" className="img-fluid" />
+                            <img src="../images/aboutUs2.png" alt="About section" className="img-fluid" />
                         </div>
                     </div>
                 </div>  

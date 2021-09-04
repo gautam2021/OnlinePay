@@ -10,7 +10,7 @@ function Footer() {
                         <div className="col-12 col-lg-10 mx-auto">
                             <div className="row">
                                 <div className="col-6 col-lg-3">
-                                    <h2><li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li></h2>
+                                    <ul><li><NavLink className="nav-link active" aria-current="page" to="/about">About</NavLink></li></ul>
                                     <ul>
                                         {/* <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
                                         <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
@@ -21,7 +21,7 @@ function Footer() {
                                 </div>
 
                                 <div className="col-6 col-lg-3">
-                                <h2><li><NavLink className="nav-link active" aria-current="page" to="/about">Services</NavLink></li></h2>
+                                <ul><li><NavLink className="nav-link active" aria-current="page" to="/service">Services</NavLink></li></ul>
                                     <ul>
                                         {/* <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
                                         <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
@@ -31,7 +31,7 @@ function Footer() {
                                 </div>
 
                                 <div className="col-6 col-lg-3">
-                                <h2><li><NavLink className="nav-link active" aria-current="page" to="/">Bill & Recharge</NavLink></li></h2>
+                                <ul><li><NavLink className="nav-link active" aria-current="page" to="/recharge">Bill & Recharge</NavLink></li></ul>
                                     <ul>
                                         {/* <li><NavLink className="nav-link active" aria-current="page" to="/about">About</NavLink></li>
                                         <li><NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink></li>
