@@ -37,8 +37,8 @@ const BookBuyApi=[
     {
         id:6,
         logo:"fas fa-cubes",
-        info1:"Invest",
-        info2:"In Stocks",
+        info1:"Invest In",
+        info2:"Stocks",
         info4:"fas fa-angle-right"
     },
     

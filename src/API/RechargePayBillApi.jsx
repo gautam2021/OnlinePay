@@ -11,8 +11,8 @@ const RechargePayBillApi=[
         id:2,
         logo:"fa fa-rupee-sign",
         info1:"Pay",
-        info2:"Rent",
-        info3:"Payment",
+        info2:"Any",
+        info3:"Rent",
         info4:"fas fa-angle-right"
     },
     {
@@ -34,9 +34,9 @@ const RechargePayBillApi=[
     {
         id:5,
         logo:"far fa-credit-card",
-        info1:"Pay",
-        info2:"Credit",
-        info3:"Card Bill",
+        info1:"Credit",
+        info2:"Card",
+        info3:"Bill",
         info4:"fas fa-angle-right"
     },
     {
