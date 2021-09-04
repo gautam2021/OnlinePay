@@ -95,12 +95,13 @@ header {
   width: 100%;
   min-height: 100vh;
 
-  background-color: var(--bgcolor);
+  
   z-index: 100;
   position: relative;
   /* clip-path: polygon(100% 0%,100% 75%,50% 100% ,0 75%,0 0); */
-  clip-path: polygon(100% 0%, 100% 75%, 50% 88%, 0 75%, 0 0);
+  clip-path: polygon(100% 0%, 100% 75%, 50% 89%, 0 75%, 0 0);
  background-color: var(--bgcolor);
+ /* background-image: radial-gradient( circle  farthest-corner at 50% 95%,  #0f4a8a 8%, #f1f5fdbd 2% );  */
 
 }
 .main-hero-container {
@@ -622,9 +623,9 @@ footer .fontawesome-style {
       /* clip-path: none; */
        /* clip-path: none; */
       /* clip-path: polygon(100% 0%, 100% 89%, 50% 95%, 0 89%, 0 0); */
-      clip-path: polygon(100% 0%, 100% 89%, 50% 95%, 0 89%, 0 0);
+      clip-path: polygon(100% 0%, 100% 89%, 50% 100%, 0 89%, 0 0);
       /* height: 90vh; */
-      margin-bottom: 7rem;
+      /* margin-bottom: 7rem; */
     }
 
     .work-container{
