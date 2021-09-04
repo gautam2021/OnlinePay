@@ -25,6 +25,7 @@ html{
   
   .RechargeBill-data-div{
     /* height: 30rem; */
+    width: 18rem;
     padding: 3rem;
     margin-bottom: 2rem;
     text-align: center;

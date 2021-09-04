@@ -36,7 +36,7 @@ const RechargePay = () => {
                         </div>
                     </div>
                     <div className="row full-width">
-                        <div className="col-lg-10 mx-auto">
+                        <div className="col-lg-10 col-10 mx-auto">
                         <h2 className="recharge_book_heading">
                                     Book & Buy on JustPay
                                 </h2>
