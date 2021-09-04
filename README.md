@@ -2,9 +2,9 @@
 
 ## This project is based on Frontend Technology where I used HTML5 , CSS3 and JavaScript(JSX) and REACTJS .
 
-### [Live Preview](https://onlinepayreactjs.netlify.app/)
+### Live Preview:👌 [Dont' Miss](https://onlinepayreactjs.netlify.app/)
 
-### [Github Repositry](https://github.com/gautam2021/OnlinePay/)
+### Github Repositry: [All Code](https://github.com/gautam2021/OnlinePay/)
 
 #### Technologies: 
 
@@ -18,4 +18,5 @@
 
 ## My LinkedIn Profile: [Click Here](https://www.linkedin.com/in/mohit-kumar-gautam-a689a0158/)
 
+#Desktop Preview
 ![desktop_view](https://user-images.githubusercontent.com/35236178/132093497-b13fa796-6561-45cd-884c-67481f854cbb.png)
