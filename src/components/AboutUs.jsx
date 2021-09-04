@@ -77,5 +77,5 @@ const AboutUs = () => {
         </>
     )
 }
-
+ // eslint-disable-next-line
 export default AboutUs

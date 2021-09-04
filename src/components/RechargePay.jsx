@@ -13,13 +13,13 @@ const RechargePay = () => {
                         Recharge & Pay Bills on Paytm.
                     </h2>
                     <div className="row">
-                        <div className="col-lg-10 mx-auto">
+                        <div className="col-lg-10 col-10 mx-auto">
                             <div className="row">
                                 {
 
                                     rechargeBill.map((ele, index) => {
                                         return (
-                                            <div className="col-sm-6 col-md-4 col-lg-2  RechargeBill-data-div" key={ele.id}>
+                                            <div className="col-lg-2 col-md-4 col-sm-6  RechargeBill-data-div" key={ele.id}>
                                                 <i className={ele.logo} id="rechargeBillPay-fontawesome"></i>
                                                 <span>{ele.info1}</span>
                                                 <span>{ele.info2}</span>
@@ -46,7 +46,7 @@ const RechargePay = () => {
 
                                     bookBuy.map((ele, index) => {
                                         return (
-                                            <div className="col-sm-6 col-md-4 col-lg-2  RechargeBill-data-div" id="bookPay-extra-hover" key={ele.id}>
+                                            <div className="col-md-4 col-lg-2 col-sm-6 RechargeBill-data-div" id="bookPay-extra-hover" key={ele.id}>
                                                 <i className={ele.logo} id="rechargeBillPay-fontawesome"></i>
                                                 <span>{ele.info1}</span>
                                                 
