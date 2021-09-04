@@ -622,7 +622,8 @@ footer .fontawesome-style {
       /* clip-path: none; */
        /* clip-path: none; */
       /* clip-path: polygon(100% 0%, 100% 89%, 50% 95%, 0 89%, 0 0); */
-      
+      clip-path: polygon(100% 0%, 100% 89%, 50% 95%, 0 89%, 0 0);
+      /* height: 90vh; */
       margin-bottom: 7rem;
     }
 
